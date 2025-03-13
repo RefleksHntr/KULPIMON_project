@@ -1,71 +1,69 @@
-<<<<<<< HEAD
-# KULPIMON_project
-monad testnet 
-=======
-## Foundry
+# KULPIMON Project
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+KULPIMON Project is deployed on the Monad testnet.
 
-Foundry consists of:
+## Overview
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+This project utilizes Foundry, a fast and modular toolkit for Ethereum application development, written in Rust. Foundry includes:
+
+- **Forge**: A testing framework for Ethereum smart contracts.
+- **Cast**: A command-line tool for interacting with smart contracts and the EVM.
+- **Anvil**: A local Ethereum node for development and testing.
+- **Chisel**: A Solidity REPL for quick contract prototyping.
 
 ## Documentation
 
-https://book.getfoundry.sh/
+For detailed information, visit the official Foundry documentation: [Foundry Book](https://book.getfoundry.sh/)
 
 ## Usage
 
-### Build
+### Build the Project
 
-```shell
-$ forge build
+```sh
+forge build
 ```
 
-### Test
+### Run Tests
 
-```shell
-$ forge test
+```sh
+forge test
 ```
 
-### Format
+### Format Solidity Code
 
-```shell
-$ forge fmt
+```sh
+forge fmt
 ```
 
-### Gas Snapshots
+### Generate Gas Snapshots
 
-```shell
-$ forge snapshot
+```sh
+forge snapshot
 ```
 
-### Anvil
+### Start a Local Node
 
-```shell
-$ anvil
+```sh
+anvil
 ```
 
-### Deploy
+### Deploy Smart Contracts
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+```sh
+forge script script/YourScript.s.sol:YourScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
-### Cast
+### Use Cast for EVM Commands
 
-```shell
-$ cast <subcommand>
+```sh
+cast <subcommand>
 ```
 
-### Help
+### Help Commands
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+```sh
+forge --help
+anvil --help
+cast --help
 ```
->>>>>>> 8be0be2 (chore: forge init)
+
