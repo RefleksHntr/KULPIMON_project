@@ -12,3 +12,14 @@ docs/
 
 # Dotenv file
 .env
+
+# Abaikan dependency library yang di-install melalui forge install
+lib/
+
+# Abaikan file log dan metadata yang tidak diperlukan
+*.log
+*.json
+*.DS_Store
+
+# Abaikan hasil testing dan laporan cakupan kode
+*.coverage
